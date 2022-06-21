@@ -5,6 +5,13 @@ module.exports = {
   safelist: ['fill-current', 'stroke-current'],
   theme: {
     container: {
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1248px',
+        '2xl': '1536px',
+      },
       padding: '1.5rem',
       center: true,
     },
