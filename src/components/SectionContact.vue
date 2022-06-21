@@ -41,6 +41,10 @@ export default {
     @apply lg:content-[''] lg:w-[19.1875rem] lg:border-t lg:border-primary;
   }
 
+  .section-title {
+    @apply text-xl leading-[1.625rem] md:text-[1.75rem] md:leading-[2.275rem];
+  }
+
   .contact-product {
     @apply relative z-10 lg:!max-w-[35.75rem] lg:-my-3;
   }

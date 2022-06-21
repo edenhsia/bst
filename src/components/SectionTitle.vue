@@ -1,5 +1,5 @@
 <template>
-  <h2 class="section-title text-h2">
+  <h2 class="section-title text-h3">
     {{ title }}
   </h2>
 </template>
