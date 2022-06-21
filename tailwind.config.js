@@ -4,6 +4,10 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   safelist: ['fill-current', 'stroke-current'],
   theme: {
+    container: {
+      padding: '1.5rem',
+      center: true,
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',

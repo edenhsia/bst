@@ -1,14 +1,14 @@
 <template>
   <h1 class="text-h4">Block studio test</h1>
-  <IconArrow class="text-primary" />
+  <MainFooter />
 </template>
 
 <script>
-import IconArrow from './assets/icons/mail.svg'
+import MainFooter from './components/MainFooter.vue'
 
 export default {
   components: {
-    IconArrow,
+    MainFooter,
   },
 }
 </script>
