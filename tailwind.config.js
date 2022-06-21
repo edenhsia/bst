@@ -31,6 +31,10 @@ module.exports = {
         darker: '#131313',
       },
     },
+    boxShadow: {
+      DEFAULT: '0px 4px 32px -8px rgba(172, 172, 172, 0.2)',
+      none: '0 0 #0000',
+    },
     extend: {
       fontFamily: {
         optima: ['optima', ...defaultTheme.fontFamily.serif],
