@@ -8,12 +8,14 @@
       <div class="collection-list">
         <CollectionCard v-for="(item, i) in items" :key="i" :item="item" />
       </div>
-      <a href="#" class="btn-all">
-        <span class="icon">
-          <IconArrow />
-        </span>
-        <span class="text text-btn">View All</span>
-      </a>
+      <div class="flex justify-end">
+        <a href="#" class="btn-all">
+          <span class="icon">
+            <IconArrow />
+          </span>
+          <span class="text text-btn">View All</span>
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -65,7 +67,7 @@ export default {
 .collection-list {
   @apply space-y-2 mb-10 md:space-y-0 md:flow-root md:mb-1.5;
   .collection-card {
-    /deep/ .image {
+    :deep() .image {
       padding-bottom: calc(365 / 312 * 100%);
     }
 
@@ -76,7 +78,7 @@ export default {
         @apply mr-6 mt-[17.375rem];
 
         width: calc(1 / 4 * 100% - 16px);
-        /deep/ .image {
+        :deep() .image {
           padding-bottom: calc(364 / 282 * 100%);
         }
       }
@@ -85,7 +87,7 @@ export default {
         @apply mr-6 mt-[7.375rem];
 
         width: calc(5 / 12 * 100% - 16px);
-        /deep/ .image {
+        :deep() .image {
           padding-bottom: calc(655 / 486 * 100%);
         }
       }
@@ -95,14 +97,14 @@ export default {
 
         width: calc(1 / 3 * 100% - 16px);
 
-        /deep/ .image {
+        :deep() .image {
           padding-bottom: calc(296 / 384 * 100%);
         }
       }
 
       &:last-child {
         width: calc(1 / 4 * 100% - 16px);
-        /deep/ .image {
+        :deep() .image {
           padding-bottom: calc(301 / 282 * 100%);
         }
       }
@@ -111,7 +113,7 @@ export default {
 }
 
 .btn-all {
-  @apply flex items-center justify-end;
+  @apply flex items-center;
 
   .icon {
     @apply w-12 h-12 flex items-center justify-center border border-gray rounded-full mr-3;
