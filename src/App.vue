@@ -1,16 +1,18 @@
 <template>
   <h1 class="text-h4">Block studio test</h1>
+  <SectionService />
   <SectionMarquee />
   <SectionContact />
   <MainFooter />
 </template>
 
 <script>
+import SectionService from './components/SectionService.vue'
 import SectionMarquee from './components/SectionMarquee.vue'
 import SectionContact from './components/SectionContact.vue'
 import MainFooter from './components/MainFooter.vue'
 
 export default {
-  components: { SectionMarquee, SectionContact, MainFooter },
+  components: { SectionService, SectionMarquee, SectionContact, MainFooter },
 }
 </script>
