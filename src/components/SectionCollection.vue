@@ -6,7 +6,12 @@
         class="text-gray mb-6 md:text-gray-dark"
       />
       <div class="collection-list">
-        <CollectionCard v-for="(item, i) in items" :key="i" :item="item" />
+        <CollectionCard
+          v-for="(item, i) in items"
+          :key="i"
+          :item="item"
+          data-aos="flip-left"
+        />
       </div>
       <div class="flex justify-end">
         <a href="#" class="btn-all">

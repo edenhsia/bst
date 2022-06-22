@@ -1,8 +1,12 @@
 <template>
   <section class="section-contact">
     <div class="container lg:flex lg:items-center">
-      <SectionTitle title="contact us" class="text-primary flex-shrink-0" />
-      <div class="relative lg:mx-auto">
+      <SectionTitle
+        title="contact us"
+        class="text-primary flex-shrink-0"
+        data-aos="fade-right"
+      />
+      <div class="relative lg:mx-auto" data-aos="zoom-in">
         <img
           src="../assets/images/contact-product.png"
           alt="contact product"

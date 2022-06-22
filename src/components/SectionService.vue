@@ -10,11 +10,13 @@
       <ServiceCard
         content="Do et reprehenderit exercit reprehendetation excepteur aliqua duis culpa."
         :icon="iconMap"
+        data-aos="fade-right"
       />
       <ServiceCard
         content="Do et reprehenderit exercit reprehendetation excepteur aliqua duis culpa."
         :icon="iconCompass"
         reverse
+        data-aos="fade-left"
       />
     </div>
   </section>

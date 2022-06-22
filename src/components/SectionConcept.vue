@@ -1,7 +1,7 @@
 <template>
   <section class="section-concept">
     <div class="relative mb-6 lg:mb-0">
-      <div class="image-main">
+      <div data-aos="fade-right" class="image-main">
         <div class="image">
           <img src="../assets/images/concept-2.png" alt="concept image" />
           <span class="image-text text-d2">
@@ -11,7 +11,7 @@
           </span>
         </div>
       </div>
-      <div class="mobile-wrap container">
+      <div data-aos="fade-left" class="mobile-wrap container">
         <SectionTitle title="concept" />
         <h3 class="text-h1 ml-auto">
           Natural<br />
