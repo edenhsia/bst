@@ -13,7 +13,7 @@
           class="contact-product"
         />
         <img
-          src="../assets/images/contact-text.svg"
+          src="../assets/images/contact-text.png"
           alt="contact text"
           class="contact-text"
         />
